@@ -5,6 +5,8 @@ body {
     height: 100vh;
     background-color: var(--gray-900);
     position: relative;
+    display: flex;
+    justify-content: center;
 }
 
 main {
@@ -45,9 +47,10 @@ main {
 }
 
 .card__description {
-    font-size: var(--font-small);
+    font-size: var(--p-font-size);
     font-weight: var(--font-light);
     margin-bottom: var(--spacing-300);
+    text-align: center;
 }
 
 .card__links {
@@ -71,9 +74,19 @@ main {
     font-weight: var(--font-bold);
 }
 
+.card__listItem a {
+    text-decoration: none;
+    color: var(--white-color);
+}
+
 .card__listItem-active:hover {
     background-color: var(--green-color);
     color: var(--gray-700);
+    cursor: pointer;
+}
+
+.card__listItem-active:hover a {
+    color: var(--white-color);
 }
 
 footer {
