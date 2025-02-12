@@ -1,0 +1,27 @@
+:root {
+    /* Colors */
+    --green-color: hsl(75, 94%, 57%);
+    --white-color: hsl(0, 0%, 100%);
+    --gray-700: hsl(0, 0%, 20%);
+    --gray-800: hsl(0, 0%, 12%);
+    --gray-900: hsl(0, 0%, 8%);
+
+    /* Typography */
+
+    /* Font Sizes */
+    --font-large: 1.5rem;
+    --font-medium: 1rem;
+    --font-small: .875rem;
+    --p-font-size: 14px;
+
+    /* Font weight */
+    --font-light: 400;
+    --font-bold: 600;
+    --font-bolder: 700;
+
+    /* Spacing */
+    --spacing-300: 1.5rem;
+    --spacing-150: .75rem;
+    --spacing-100: .5rem;
+    --spacing-50: .25rem;
+}

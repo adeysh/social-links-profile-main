@@ -1,0 +1,32 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Ensure images and media fit within their containers */
+img,
+video {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+@font-face {
+    font-family: "Inter";
+    src: url("/assets/fonts/Inter-VariableFont_slnt\,wght.ttf") format("woff2-variations");
+    font-weight: 400 700;
+    font-style: normal;
+    font-display: fallback;
+}
+
+* {
+    font-family: "Inter";
+}
+
+.flex-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
